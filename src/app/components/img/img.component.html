@@ -1,0 +1,4 @@
+<img [src]="img" alt="" width="200" *ngIf="img; else elseimg">
+<ng-template #elseimg>
+  <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/IMG_logo_%282017%29.svg" alt="">
+</ng-template>
